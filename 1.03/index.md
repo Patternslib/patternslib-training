@@ -20,12 +20,12 @@ This example just loads remote text from a html file next to this one.
     clone-behaviour: escape;
     clone-wrapper: #code-template;
   ">
-  <div>
-    <a href="/1.03/inject-text.html"
-        class="pat-inject"
-        data-pat-inject="source: #text; target: #target-1">Load remote text</a>
-    <div id="target-1">Injected content will appear here.</div>
-  </div>
+<div>
+  <a href="/1.03/inject-text.html"
+      class="pat-inject"
+      data-pat-inject="source: #text; target: #target-1">Load remote text</a>
+  <div id="target-1">Injected content will appear here.</div>
+</div>
 </div>
 
 
@@ -41,12 +41,12 @@ You can see that any patterns in the remotely loaded content are also initialize
     clone-behaviour: escape;
     clone-wrapper: #code-template;
   ">
-  <div>
-    <a href="/1.02/index.md"
-        class="pat-inject"
-        data-pat-inject="target: #target-2">Load pat-switch tutorial</a>
-    <div id="target-2">Injected content will appear here.</div>
-  </div>
+<div>
+  <a href="/1.02/index.md"
+      class="pat-inject"
+      data-pat-inject="target: #target-2">Load pat-switch tutorial</a>
+  <div id="target-2">Injected content will appear here.</div>
+</div>
 </div>
 
 
@@ -57,16 +57,10 @@ You can see that any patterns in the remotely loaded content are also initialize
 First, let's define an space which moves the demo out of view for sure.
 When you scroll down a mp3 player should appear.
 
-<div
-  class="pat-clone"
-  data-pat-clone="
-    trigger-behaviour: auto;
-    clone-behaviour: escape;
-    clone-wrapper: #code-template;
-  ">
-  <div>
-    <div style="height: 100vh"></div>
-  </div>
+<strong>scroll down....</strong>
+
+<div>
+  <div style="height: 100vh"></div>
 </div>
 
 Now, let's initialize.
@@ -84,15 +78,15 @@ TODO: check above statement, coordinate if we can leave ``load-inline-script`` i
     clone-behaviour: escape;
     clone-wrapper: #code-template;
   ">
-  <div>
-    <a href="/1.03/wavesurfer.html"
-        class="pat-inject"
-        data-pat-inject="
-          trigger: autoload-visible;
-          source: body;
-          target: self::element;
-          features: load-inline-script">Load wavesurfer.js demo</a>
-  </div>
+<div>
+  <a href="/1.03/wavesurfer.html"
+      class="pat-inject"
+      data-pat-inject="
+        trigger: autoload-visible;
+        source: body;
+        target: self::element;
+        features: load-inline-script">Load wavesurfer.js demo</a>
+</div>
 </div>
 
 

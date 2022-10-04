@@ -74,14 +74,14 @@ Consider the following example:
     clone-behaviour: escape;
     clone-wrapper: #code-template;
   ">
-  <div data-pat-toggle="selector: button.pat-toggle">
-    <button class="pat-toggle" data-pat-toggle="value: bg-red default">Toggle button background</button>
-    <button class="pat-toggle" data-pat-toggle="value: fg-blue default">Toggle button color</button>
-    <style>
-      .bg-red { background-color: red; }
-      .fg-blue { color: blue; }
-    </style>
-  </div>
+<div data-pat-toggle="selector: button.pat-toggle">
+  <button class="pat-toggle" data-pat-toggle="value: bg-red default">Toggle button background</button>
+  <button class="pat-toggle" data-pat-toggle="value: fg-blue default">Toggle button color</button>
+  <style>
+    .bg-red { background-color: red; }
+    .fg-blue { color: blue; }
+  </style>
+</div>
 </div>
 
 
@@ -100,24 +100,24 @@ Let's see how the toggle pattern can help us to create a simple accordion:
     clone-behaviour: escape;
     clone-wrapper: #code-template;
   ">
-  <div>
-    <button class="pat-toggle" data-pat-toggle="selector: #example-1-1--accordion; value: opened closed">Show/hide the accordion</button>
-    <section id="example-1-1--accordion" class="closed">
-      <img src="https://picsum.photos/400/600" alt="random image from the internet" />
-    </section>
-    <style>
-      .closed {
-        height: 0;
-        overflow: hidden;
-        transition: height 1s;
-      }
-      .opened {
-        height: 600px;
-        overflow: hidden;
-        transition: height 1s
-      }
-    </style>
-  </div>
+<div>
+  <button class="pat-toggle" data-pat-toggle="selector: #example-1-1--accordion; value: opened closed">Show/hide the accordion</button>
+  <section id="example-1-1--accordion" class="closed">
+    <img src="https://picsum.photos/400/600" alt="random image from the internet" />
+  </section>
+  <style>
+    .closed {
+      height: 0;
+      overflow: hidden;
+      transition: height 1s;
+    }
+    .opened {
+      height: 600px;
+      overflow: hidden;
+      transition: height 1s
+    }
+  </style>
+</div>
 </div>
 
 
@@ -137,12 +137,12 @@ Let's show/hide an element via the ``hidden`` attribute.
     clone-behaviour: escape;
     clone-wrapper: #code-template;
   ">
-  <div>
-    <button class="pat-toggle" data-pat-toggle="selector: #example-1-1--show-hide; attribute: hidden">Show/hide the element</button>
-    <section id="example-1-1--show-hide" hidden>
-      <img src="https://picsum.photos/400/600" alt="random image from the internet" />
-    </section>
-  </div>
+<div>
+  <button class="pat-toggle" data-pat-toggle="selector: #example-1-1--show-hide; attribute: hidden">Show/hide the element</button>
+  <section id="example-1-1--show-hide" hidden>
+    <img src="https://picsum.photos/400/600" alt="random image from the internet" />
+  </section>
+</div>
 </div>
 
 
