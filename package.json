@@ -1,0 +1,13 @@
+{
+  "name": "patternslib-training",
+  "version": "1.0.0",
+  "description": "Patternslib training for Ploneconf 2022",
+  "author": "Johannes Raggam <thetetet@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sirv-cli": "^2.0.2"
+  },
+  "scripts": {
+    "start": "sirv -p 3000"
+  }
+}
