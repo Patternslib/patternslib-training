@@ -13,13 +13,7 @@ Have a look at the [options reference](https://patternslib.com/demos/inject#opti
 
 This example just loads remote text from a html file next to this one.
 
-<div
-  class="pat-clone"
-  data-pat-clone="
-    trigger-behaviour: auto;
-    clone-behaviour: escape;
-    clone-wrapper: #code-template;
-  ">
+<div class="pat-clone-code">
 <div>
   <a href="/1.03/inject-text.html"
       class="pat-inject"
@@ -34,13 +28,7 @@ This example just loads remote text from a html file next to this one.
 Another example - load some markdown content from the previous pat-switch example.
 You can see that any patterns in the remotely loaded content are also initialized.
 
-<div
-  class="pat-clone"
-  data-pat-clone="
-    trigger-behaviour: auto;
-    clone-behaviour: escape;
-    clone-wrapper: #code-template;
-  ">
+<div class="pat-clone-code">
 <div>
   <a href="/1.02/index.md"
       class="pat-inject"
@@ -71,13 +59,7 @@ For security reasons, this is not enabled by default.
 
 TODO: check above statement, coordinate if we can leave ``load-inline-script`` in ``pat-inject``.
 
-<div
-  class="pat-clone"
-  data-pat-clone="
-    trigger-behaviour: auto;
-    clone-behaviour: escape;
-    clone-wrapper: #code-template;
-  ">
+<div class="pat-clone-code">
 <div>
   <a href="/1.03/wavesurfer.html"
       class="pat-inject"
@@ -98,13 +80,7 @@ A simple example is a like button.
 
 The beauty in this example is also that a form is used. This is semantically just correct. Data is changed on the server side, so a form fits much better than a simple link.
 
-<div
-  class="pat-clone"
-  data-pat-clone="
-    trigger-behaviour: auto;
-    clone-behaviour: escape;
-    clone-wrapper: #code-template;
-  ">
+<div class="pat-clone-code">
 <form
     action="/1.03/inject-like.html"
     class="pat-inject"

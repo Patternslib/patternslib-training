@@ -67,13 +67,8 @@ Everything should be as simple as possible.
 The configuration is also aquired from parent elements.
 Consider the following example:
 
-<div
-  class="pat-clone"
-  data-pat-clone="
-    trigger-behaviour: auto;
-    clone-behaviour: escape;
-    clone-wrapper: #code-template;
-  ">
+
+<div class="pat-clone-code">
 <div data-pat-toggle="selector: button.pat-toggle">
   <button class="pat-toggle" data-pat-toggle="value: bg-red default">Toggle button background</button>
   <button class="pat-toggle" data-pat-toggle="value: fg-blue default">Toggle button color</button>
@@ -93,13 +88,7 @@ That's at least the basic idea - but there are also bigger Patterns which provid
 Let's see how the toggle pattern can help us to create a simple accordion:
 
 
-<div
-  class="pat-clone"
-  data-pat-clone="
-    trigger-behaviour: auto;
-    clone-behaviour: escape;
-    clone-wrapper: #code-template;
-  ">
+<div class="pat-clone-code">
 <div>
   <button class="pat-toggle" data-pat-toggle="selector: #example-1-1--accordion; value: opened closed">Show/hide the accordion</button>
   <section id="example-1-1--accordion" class="closed">
@@ -130,13 +119,7 @@ We can also toggle attributes with pat-toggle.
 Let's show/hide an element via the ``hidden`` attribute.
 
 
-<div
-  class="pat-clone"
-  data-pat-clone="
-    trigger-behaviour: auto;
-    clone-behaviour: escape;
-    clone-wrapper: #code-template;
-  ">
+<div class="pat-clone-code">
 <div>
   <button class="pat-toggle" data-pat-toggle="selector: #example-1-1--show-hide; attribute: hidden">Show/hide the element</button>
   <section id="example-1-1--show-hide" hidden>
