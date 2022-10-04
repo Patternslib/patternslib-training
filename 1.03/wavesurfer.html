@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Wavesurfer</title>
+  </head>
+  <body>
+
+    <header class="overview">
+      <div class="container">
+        <div class="demo">
+          <!-- Include wavesurfer.js from cdn -->
+          <script src="https://unpkg.com/wavesurfer.js"></script>
+
+          <!-- Define an HTML element where the waveform should appear -->
+          <div id="waveform">
+            <progress id="progress" class="progress progress-striped" value="0" max="100"></progress>
+          </div>
+
+          <script>
+            window.setTimeout(function() {
+
+            var ctx = document.createElement('canvas').getContext('2d');
+            var linGrad = ctx.createLinearGradient(0, 64, 0, 200);
+            linGrad.addColorStop(0.5, 'rgba(255, 255, 255, 1.000)');
+            linGrad.addColorStop(0.5, 'rgba(183, 183, 183, 1.000)');
+
+            var wavesurfer = WaveSurfer.create({
+              // Use the id or class-name of the element you created, as a selector
+              container: '#waveform',
+              // The color can be either a simple CSS color or a Canvas gradient
+              waveColor: linGrad,
+              progressColor: 'hsla(200, 100%, 30%, 0.5)',
+              cursorColor: '#fff',
+              // This parameter makes the waveform look like SoundCloud's player
+              barWidth: 3
+            });
+
+            wavesurfer.on('loading', function (percents) {
+              document.getElementById('progress').value = percents;
+            });
+
+            wavesurfer.on('ready', function (percents) {
+              document.getElementById('progress').style.display = 'none';
+            });
+
+            wavesurfer.load("https://wavesurfer-js.org/example/media/demo.wav");
+
+            window.wavesurfer = wavesurfer;
+
+            }, 1000);
+          </script>
+
+          <div class="controls">
+            <button class="btn btn-primary" onclick="wavesurfer.skipBackward()">
+              <i class="fa fa-step-backward"></i>
+              Backward
+            </button>
+
+            <button class="btn btn-primary" onclick="wavesurfer.playPause()">
+              <i class="fa fa-play"></i>
+              Play
+              /
+              <i class="fa fa-pause"></i>
+              Pause
+            </button>
+
+            <button class="btn btn-primary" onclick="wavesurfer.skipForward()">
+              <i class="fa fa-step-forward"></i>
+              Forward
+            </button>
+
+            <button class="btn btn-primary" onclick="wavesurfer.toggleMute()">
+              <i class="fa fa-volume-off"></i>
+              Toggle Mute
+            </button>
+
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+  </body>
+</html>
