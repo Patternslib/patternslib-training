@@ -94,3 +94,35 @@ TODO: check above statement, coordinate if we can leave ``load-inline-script`` i
           features: load-inline-script">Load wavesurfer.js demo</a>
   </div>
 </div>
+
+
+## A like button with pat-inject enabled forms
+
+pat-inject on forms turn them into ajax based forms the values are submitted via ajax.
+
+A simple example is a like button.
+
+The beauty in this example is also that a form is used. This is semantically just correct. Data is changed on the server side, so a form fits much better than a simple link.
+
+<div
+  class="pat-clone"
+  data-pat-clone="
+    trigger-behaviour: auto;
+    clone-behaviour: escape;
+    clone-wrapper: #code-template;
+  ">
+<form
+    action="/1.03/inject-like.html"
+    class="pat-inject"
+    data-pat-inject="target: self::element">
+  <button
+      type="submit"
+      name="like_button"
+      value="like"
+      class="pat-tooltip"
+      data-pat-tooltip="trigger: hover; position-list: tm">Like
+    <sup class="counter">(3)</sup>
+  </button>
+</form>
+</div>
+
