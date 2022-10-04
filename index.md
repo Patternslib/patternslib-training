@@ -15,7 +15,7 @@
   </a>
 
 - <a href="./1.04/index.md" class="pat-inject" data-pat-inject="target: #content">
-    1.4 - Navigating with pat-inject, pat-navigation and pat-markdown.
+    1.4 - Navigating with pat-inject and pat-navigation.
   </a>
 
 - <a href="./1.05/index.md" class="pat-inject" data-pat-inject="target: #content">
