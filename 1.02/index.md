@@ -1,5 +1,7 @@
 # Adding and removing classes with pat-switch.
 
+Documentation: https://patternslib.com/demos/switch#documentation
+
 pat-switch can be used to add or remove classes from an element.
 
 <div
