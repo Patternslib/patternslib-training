@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>navigation</title>
+  </head>
+  <body>
+    <nav
+        class="pat-navigation"
+        data-pat-inject="
+            source: #content;
+            target: #content;
+            history: record;
+    ">
+      <ul>
+        <li>
+          <a href="./start.html" class="pat-inject">Start</a>
+        </li>
+        <li>
+          <a href="./page1.html" class="pat-inject">Page 1</a>
+          <ul>
+            <li>
+              <a href="./page1.1.html" class="pat-inject">Page 1.1</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="./page2.html" class="pat-inject">Page 2</a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>

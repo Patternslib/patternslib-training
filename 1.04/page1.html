@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>page 1</title>
+    <script src="http://localhost:3001/bundle.min.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+
+      <a
+          href="./navigation.html"
+          class="pat-inject"
+          data-pat-inject="
+              target: self::element;
+              trigger: autoload
+      ">load navigation</a>
+
+      <div id="content">
+        <h1>page 1</h1>
+      </div>
+
+    </div>
+  </body>
+</html>

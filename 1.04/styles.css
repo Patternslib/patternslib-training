@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+}
+
+.current {
+    color: red;
+}
+
+.navigation-in-path {
+    color: green;
+}
