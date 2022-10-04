@@ -4,13 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Patternslib training</title>
+    <script>
+      window.__patternslib_disable_modernizr = true;
+    </script>
     <script src="http://localhost:3001/bundle.min.js"></script>
 
     <style>
       .pat-navigation .current { color: red; }
     </style>
   </head>
-  <body data-pat-navigation="history: record">
+  <body data-pat-inject="history: record">
 
     <nav class="pat-navigation">
       <a href="./index.md" class="pat-inject" data-pat-inject="target: #content">Index</a> 
@@ -63,6 +66,15 @@
         data-pat-inject="target: #content; trigger: autoload"
       >Auto-load index</a>
     </article>
+
+    <template id="code-template">
+      <pre
+          class="pat-syntax-highlight"
+          data-pat-syntax-highlight="language: javascript">
+        <code>${this.clone}</code>
+      </pre>
+    </template>
+
 
   </body>
 </html>

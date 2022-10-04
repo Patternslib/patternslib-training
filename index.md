@@ -3,7 +3,7 @@
 ## Part 1 - Using Patternslib
 
 - <a href="./1.01/index.md" class="pat-inject" data-pat-inject="target: #content">
-    1.1 The most basic integration method.
+    1.1 Integrating Patternslib
   </a>
 
 - <a href="./1.02/index.md" class="pat-inject" data-pat-inject="target: #content">
