@@ -1,4 +1,4 @@
-# 1.1 Integrating Patternslib
+# 1.1 Integrating Patternslib, Basics and pat-toggle
 
 
 ## Basic Integration
