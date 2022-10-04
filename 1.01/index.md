@@ -1,5 +1,7 @@
 # 1.1 Integrating Patternslib, Basics and pat-toggle
 
+pat-toggle Documentation: https://patternslib.com/demos/toggle#documentation
+
 
 ## Basic Integration
 
