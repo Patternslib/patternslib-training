@@ -76,7 +76,7 @@ Consider the following example:
     <button class="pat-toggle" data-pat-toggle="value: bg-red default">Toggle button background</button>
     <button class="pat-toggle" data-pat-toggle="value: fg-blue default">Toggle button color</button>
     <style>
-      .bg-red { background-color: re; }
+      .bg-red { background-color: red; }
       .fg-blue { color: blue; }
     </style>
   </div>
