@@ -5,9 +5,9 @@
   "author": "Johannes Raggam <thetetet@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "sirv-cli": "^2.0.2"
+    "serve": "*"
   },
   "scripts": {
-    "start": "sirv -p 3000"
+    "start": "serve -l 3000"
   }
 }
