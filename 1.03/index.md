@@ -53,11 +53,11 @@ When you scroll down a mp3 player should appear.
 
 Now, let's initialize.
 
-We use the special argument ``features: load-inline-script`` here.
+We use the special argument ``features: allow-inline-scripts`` here.
 This loads scripts defined in the external file.
 For security reasons, this is not enabled by default.
 
-TODO: check above statement, coordinate if we can leave ``load-inline-script`` in ``pat-inject``.
+TODO: check above statement, coordinate if we can leave ``allow-inline-scripts`` in ``pat-inject``.
 
 <div class="pat-clone-code">
 <div>
@@ -67,7 +67,7 @@ TODO: check above statement, coordinate if we can leave ``load-inline-script`` i
         trigger: autoload-visible;
         source: body;
         target: self::element;
-        features: load-inline-script">Load wavesurfer.js demo</a>
+        features: allow-inline-scripts">Load wavesurfer.js demo</a>
 </div>
 </div>
 
