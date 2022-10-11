@@ -1,6 +1,4 @@
-# Step 1.6
-
-thefirst step somewhere.
+# 1.6 - Integrating pat-leaflet.
 
 <div class="pat-clone-code">
 <div>

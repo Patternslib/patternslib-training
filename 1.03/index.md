@@ -51,23 +51,16 @@ When you scroll down a mp3 player should appear.
   <div style="height: 100vh"></div>
 </div>
 
-Now, let's initialize.
+Now, let's load.
 
-We use the special argument ``features: allow-inline-scripts`` here.
-This loads scripts defined in the external file.
-For security reasons, this is not enabled by default.
-
-TODO: check above statement, coordinate if we can leave ``allow-inline-scripts`` in ``pat-inject``.
 
 <div class="pat-clone-code">
 <div>
-  <a href="/1.03/wavesurfer.html"
+  <a href="/index.md"
       class="pat-inject"
       data-pat-inject="
         trigger: autoload-visible;
-        source: body;
-        target: self::element;
-        features: allow-inline-scripts">Load wavesurfer.js demo</a>
+        target: self::element;">Load the index page.</a>
 </div>
 </div>
 
@@ -88,9 +81,7 @@ The beauty in this example is also that a form is used. This is semantically jus
   <button
       type="submit"
       name="like_button"
-      value="like"
-      class="pat-tooltip"
-      data-pat-tooltip="trigger: hover; position-list: tm">Like
+      value="like">Like
     <sup class="counter">(3)</sup>
   </button>
 </form>

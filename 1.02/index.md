@@ -1,4 +1,4 @@
-# Adding and removing classes with pat-switch.
+# 1.2 - Adding and removing classes with pat-switch.
 
 Documentation: https://patternslib.com/demos/switch#documentation
 
