@@ -80,6 +80,32 @@ This config must be loaded before the Patternslib bundle.
 ```
 
 
+## Integrate more bundles
+
+Since the integration of the Webpack Module Federation feature you can directly integrate other patterns without loading shared resoruces like jQuery twice.
+For more information visit the Patternslib documentaion on [Webpack Module Federation](https://github.com/Patternslib/Patterns/blob/master/docs/developer/module-federation.md).
+
+To integrate another bundle, you can add the bundle's remote.min.js file.
+This is an example integrating pat-leaflet:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Patternslib training</title>
+    <script>
+      window.__patternslib_disable_modernizr = true;
+      window.__patternslib_import_styles = true;
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@patternslib/patternslib@9.8.0-beta.6/dist/bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@patternslib/pat-leaflet@2.1.0/dist/remote.min.js"></script>
+  </head>
+  ...
+```
+
+
+
 ### Example Integration
 
 
