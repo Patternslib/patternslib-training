@@ -20,7 +20,7 @@ Now, lets look at a example and some code:
 
 <div class="pat-clone-code">
 <form
-    action="/1.05/submitted.html"
+    action="./1.05/submitted.html"
     class="pat-inject pat-validation"
     data-pat-inject="target: self::element">
   <fieldset

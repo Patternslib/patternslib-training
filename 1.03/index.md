@@ -15,7 +15,7 @@ This example just loads remote text from a html file next to this one.
 
 <div class="pat-clone-code">
 <div>
-  <a href="/1.03/inject-text.html"
+  <a href="./1.03/inject-text.html"
       class="pat-inject"
       data-pat-inject="source: #text; target: #target-1">Load remote text</a>
   <div id="target-1">Injected content will appear here.</div>
@@ -30,7 +30,7 @@ You can see that any patterns in the remotely loaded content are also initialize
 
 <div class="pat-clone-code">
 <div>
-  <a href="/1.02/index.md"
+  <a href="./1.02/index.md"
       class="pat-inject"
       data-pat-inject="target: #target-2">Load pat-switch tutorial</a>
   <div id="target-2">Injected content will appear here.</div>
@@ -56,7 +56,7 @@ Now, let's load.
 
 <div class="pat-clone-code">
 <div>
-  <a href="/index.md"
+  <a href="./index.md"
       class="pat-inject"
       data-pat-inject="
         trigger: autoload-visible;
@@ -75,7 +75,7 @@ The beauty in this example is also that a form is used. This is semantically jus
 
 <div class="pat-clone-code">
 <form
-    action="/1.03/inject-like.html"
+    action="./1.03/inject-like.html"
     class="pat-inject"
     data-pat-inject="target: self::element">
   <button
