@@ -21,7 +21,7 @@ Here is an example with the jsDelivr service:
   <head>
     <meta charset="UTF-8" />
     <title>Patternslib training</title>
-    <script src="https://cdn.jsdelivr.net/npm/@patternslib/patternslib@9.8.0-beta.6/dist/bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@patternslib/patternslib@9.9.4/dist/bundle.min.js"></script>
   </head>
   ...
 ```
@@ -34,7 +34,7 @@ And one with UNPKG:
   <head>
     <meta charset="UTF-8" />
     <title>Patternslib training</title>
-    <script src="https://unpkg.com/@patternslib/patternslib@9.8.0-beta.6/dist/bundle.min.js"></script>
+    <script src="https://unpkg.com/@patternslib/patternslib@9.9.4/dist/bundle.min.js"></script>
   </head>
   ...
 ```
@@ -74,7 +74,7 @@ This config must be loaded before the Patternslib bundle.
       window.__patternslib_disable_modernizr = true;
       window.__patternslib_import_styles = true;
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/@patternslib/patternslib@9.8.0-beta.6/dist/bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@patternslib/patternslib@9.9.4/dist/bundle.min.js"></script>
   </head>
   ...
 ```
@@ -98,8 +98,8 @@ This is an example integrating pat-leaflet:
       window.__patternslib_disable_modernizr = true;
       window.__patternslib_import_styles = true;
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/@patternslib/patternslib@9.8.0-beta.6/dist/bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@patternslib/pat-leaflet@2.1.0/dist/remote.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@patternslib/patternslib@9.9.4/dist/bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@patternslib/pat-leaflet@2.1.1/dist/remote.min.js"></script>
   </head>
   ...
 ```
@@ -119,7 +119,7 @@ This is an example integrating pat-leaflet:
       window.__patternslib_disable_modernizr = true;
       window.__patternslib_import_styles = true;
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/@patternslib/patternslib@9.8.0-beta.6/dist/bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@patternslib/patternslib@9.9.4/dist/bundle.min.js"></script>
   </head>
   <body>
 

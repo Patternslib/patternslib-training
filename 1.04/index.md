@@ -16,7 +16,7 @@ In this example, we have the following structure:
   <head>
     <meta charset="UTF-8" />
     <title>inject/navigation demo</title>
-    <script src="https://cdn.jsdelivr.net/npm/@patternslib/patternslib@9.8.0-beta.6/dist/bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@patternslib/patternslib@9.9.4/dist/bundle.min.js"></script>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
