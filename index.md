@@ -4,6 +4,8 @@
 
 This training was first held at the Namur Plone conference 2022 by Johannes Raggam from Syslab.com.
 
+The training is online at: https://patternslib.github.io/patternslib-training/
+
 
 ## Part 1 - Using Patternslib
 

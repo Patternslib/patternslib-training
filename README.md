@@ -4,6 +4,8 @@ Training documentation for Patternslib.
 
 Originally created for Plone conference 2022, Namur, Belgium.
 
+The training is online at: https://patternslib.github.io/patternslib-training/
+
 
 ## How to use
 
